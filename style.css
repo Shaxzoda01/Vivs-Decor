@@ -188,16 +188,52 @@ nav div {
     line-height: 155%;
 }
 
+.about {
+    margin-bottom: 240px;
+}
+
 .about__wrapper {
     display: flex;
+    gap: 100px;
+}
+
+.about__title {
+    font-size: 58px;
+    margin-bottom: 50px;
 }
 
 
+.about__text {
+    font-size: 24px;
+    color: #545454;
+    line-height: 165.2%;
+    margin-bottom: 85px;
+}
 
+.about__dropdown {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #DADADA;
+    margin-bottom: 54px;
+}
 
+.about__dropdown p {
+    font-size: 22px;
+    color: #1F1F1F;
+    font-weight: 500;
+}
 
-
-
+.about__link {
+    display: inline-block;
+    font-size: 24px;
+    color: #fff;
+    background-color: #1F1F1F;
+    padding: 20px 70px;
+    border-radius: 5px;
+}
 
 
 
